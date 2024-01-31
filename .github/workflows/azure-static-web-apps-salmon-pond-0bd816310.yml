@@ -62,9 +62,9 @@ jobs:
 
           output_location: "" # Built app content directory - optional
 
-          app_build_command: "yarn run build"
+          app_build_command: "yarn run build && rm -rf ./.next/cache"
 
-          api_build_command: "rm -rf $SOURCE_DIR/node_modules/@next/swc-* && rm -rf $SOURCE_DIR/.next/cache"
+          api_build_command: "rm -rf ./node_modules/@next/swc-* && rm -rf ./.next/cache"
 
           ###### End of Repository/Build Configurations ######
 
