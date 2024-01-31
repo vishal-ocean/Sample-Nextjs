@@ -38,10 +38,9 @@ jobs:
           output_location: "" # Built app content directory - optional
           app_build_command: "yarn run build"
           api_build_command: "rm -rf $SOURCE_DIR/node_modules/@next/swc-* && rm -rf $SOURCE_DIR/.next/cache && rm -rf ./node_modules/@next/swc-* && rm -rf ./.next/cache"
-        env: # Add environment variables here
-          IS_STATIC_EXPORT: true
           ###### End of Repository/Build Configurations ######
-
+      - name: Remove cache
+        run: rm -rf ./.next/cache
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
