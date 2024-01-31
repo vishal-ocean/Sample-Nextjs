@@ -39,8 +39,6 @@ jobs:
           pi_build_command: "rm -rf ./node_modules/@next/swc-* && rm -rf ./.next/cache"
           skip_app_build: true
           ###### End of Repository/Build Configurations ######
-      - name: rm node
-        run: rm -rfv $GITHUB_WORKSPACE/apps/portal/node_modules
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
