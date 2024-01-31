@@ -2,11 +2,8 @@ const webpack = require("webpack");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // reactStrictMode: false,
+  reactStrictMode: false,
   output: "standalone",
-  images: {
-    unoptimized: true,
-  },
   webpack: (config, { isServer, dev }) => {
     if (!dev) {
       config.plugins.push(
