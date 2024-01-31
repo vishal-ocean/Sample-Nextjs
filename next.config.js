@@ -2,7 +2,7 @@ const webpack = require("webpack");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  //   reactStrictMode: true,
   distDir: "app",
   output: "standalone",
   webpack: (config, { isServer, dev }) => {
