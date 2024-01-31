@@ -1,0 +1,98 @@
+[
+  {
+    "name": "BTC",
+    "subText": "Bitcoin",
+    "tokenSymbol": "BTC",
+    "img": "/images/svg/icon-BTC.svg",
+    "marketPrice": 21000,
+    "dynamic": 0.13,
+    "dynamicStats": "increase",
+    "volume24H": 14609867809.08,
+    "marketCap": 525490274799.98,
+    "isInTrending": false
+  },
+  {
+    "name": "BTC",
+    "subText": "Bitcoin",
+    "tokenSymbol": "BTC",
+    "img": "/images/svg/icon-BTC.svg",
+    "marketPrice": 21000,
+    "dynamic": 0.13,
+    "dynamicStats": "decrease",
+    "volume24H": 14609867809.08,
+    "marketCap": 525490274799.98,
+    "isInTrending": false
+  },
+  {
+    "name": "BTC",
+    "subText": "Bitcoin",
+    "tokenSymbol": "BTC",
+    "img": "/images/svg/icon-BTC.svg",
+    "marketPrice": 21000,
+    "dynamic": 0.13,
+    "dynamicStats": "decrease",
+    "volume24H": 14609867809.08,
+    "marketCap": 525490274799.98,
+    "isInTrending": true
+  },
+  {
+    "name": "BTC",
+    "subText": "Bitcoin",
+    "tokenSymbol": "BTC",
+    "img": "/images/svg/icon-BTC.svg",
+    "marketPrice": 21000,
+    "dynamic": 0.13,
+    "dynamicStats": "increase",
+    "volume24H": 14609867809.08,
+    "marketCap": 525490274799.98,
+    "isInTrending": true
+  },
+  {
+    "name": "BTC",
+    "subText": "Bitcoin",
+    "tokenSymbol": "BTC",
+    "img": "/images/svg/icon-BTC.svg",
+    "marketPrice": 21000,
+    "dynamic": 0.13,
+    "dynamicStats": "increase",
+    "volume24H": 14609867809.08,
+    "marketCap": 525490274799.98,
+    "isInTrending": true
+  },
+  {
+    "name": "BTC",
+    "subText": "Bitcoin",
+    "tokenSymbol": "BTC",
+    "img": "/images/svg/icon-BTC.svg",
+    "marketPrice": 21000,
+    "dynamic": 0.13,
+    "dynamicStats": "decrease",
+    "volume24H": 14609867809.08,
+    "marketCap": 525490274799.98,
+    "isInTrending": false
+  },
+  {
+    "name": "BTC",
+    "subText": "Bitcoin",
+    "tokenSymbol": "BTC",
+    "img": "/images/svg/icon-BTC.svg",
+    "marketPrice": 21000,
+    "dynamic": 0.13,
+    "dynamicStats": "increase",
+    "volume24H": 14609867809.08,
+    "marketCap": 525490274799.98,
+    "isInTrending": false
+  },
+  {
+    "name": "BTC",
+    "subText": "Bitcoin",
+    "tokenSymbol": "BTC",
+    "img": "/images/svg/icon-BTC.svg",
+    "marketPrice": 22000,
+    "dynamic": 0.13,
+    "dynamicStats": "decrease",
+    "volume24H": 14609867809.08,
+    "marketCap": 525490274799.98,
+    "isInTrending": true
+  }
+]

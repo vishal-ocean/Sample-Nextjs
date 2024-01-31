@@ -1,0 +1,50 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model UserIds {
+  id       String    @id @default(uuid())
+  auth0Id  String    @unique
+  strigaId String?   @unique
+  email    String?   @unique
+  sumsubId String?   @unique
+  kyc      KYCStatus @default(NOT_STARTED)
+
+  @@index([auth0Id])
+}
+
+model Notifications {
+  id           String              @id @default(uuid())
+  notification Json
+  readStatus   Boolean             @default(false)
+  archived     Boolean             @default(false)
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime?           @default(now())
+  auth0Id      String
+  source       NotificationsSource
+  externalId   String
+
+  @@unique([source, externalId])
+  @@index([auth0Id])
+}
+
+enum NotificationsSource {
+  INTERNAL
+  CRYPTO
+}
+
+enum KYCStatus {
+  NOT_STARTED
+  INITIATED
+  PENDING_REVIEW
+  ON_HOLD
+  APPROVED
+  REJECTED
+  REJECTED_FINAL
+}

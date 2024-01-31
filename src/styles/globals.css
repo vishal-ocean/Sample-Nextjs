@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+
+@import "react-datepicker/dist/react-datepicker.css";
+
+@import "./common.css";
+@import "./fonts.css";
+@import "./scroll-bar.css";
+@import "./slick.css";
+@import "./tooltip.css";
+@import "./toast.css";
+@import "./rc-slider.css";
+@import "./background.css";
+@import "./datepicker.css";
+@import "./progress.css";
+
+@tailwind utilities;

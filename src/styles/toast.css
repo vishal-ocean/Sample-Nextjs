@@ -1,0 +1,12 @@
+.Toastify__toast-container {
+  width: auto;
+}
+.Toastify__toast-body {
+  @apply text-blue-300 dark:text-white font-700 text-16 p-0 w-full leading-5;
+}
+.Toastify__toast > button > svg {
+  display: none;
+}
+.Toastify__toast-icon {
+  width: auto !important;
+}

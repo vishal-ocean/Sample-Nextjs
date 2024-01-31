@@ -1,0 +1,33 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.sortMembers": "explicit",
+    "source.sortImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "files.exclude": {
+    // "node_modules/": true,
+    ".next/": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": [
+    "hexlify",
+    "nostyle",
+    "striga",
+    "swiper",
+    "wagmi",
+    "zustand"
+  ],
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  }
+  // "tailwindCSS.rootFontSize": 10
+}

@@ -1,0 +1,5 @@
+export const TOTAL_TRANSACTION_LIMIT_PER_MONTH = "15,000 or equivalent";
+export const TRANSACTION_LIMIT_PER_DAY = "15,000*";
+export const TRANSACTION_LIMIT_PER_MONTH = "10,000*";
+export const ATM_WITHDRAWAL_LIMIT_PER_DAY = "3,000**";
+export const ATM_WITHDRAWAL_LIMIT_PER_MONTH = "350**";

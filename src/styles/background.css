@@ -1,0 +1,91 @@
+/* .homepage-bg {
+  background-image: url(/images/dashboard-banner.png);
+  @apply bg-no-repeat bg-cover rounded-[48px];
+} */
+
+/* .profile-header-card {
+    background-image: url(/images/profile-header-card.png);
+    @apply bg-no-repeat bg-cover rounded-[48px];
+  } */
+
+.side-card-1 {
+  background-image: url(/images/side-card-1.png);
+  @apply bg-no-repeat bg-cover bg-right rounded-[24px];
+}
+
+.side-card-1 .side-card-content {
+  background: linear-gradient(65deg, #061035 30.04%, rgba(6, 25, 53, 0) 75.43%);
+}
+
+.side-card-2 {
+  background: linear-gradient(
+    69deg,
+    #1a48ff 50.24%,
+    rgba(26, 72, 255, 0) 70.12%
+  );
+}
+
+.side-card-3 {
+  background-image: url(/images/safe1.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 200px 90%;
+}
+
+.side-card-3 .side-card-content {
+  background: linear-gradient(
+    69deg,
+    #1a48ff 12.24%,
+    rgba(26, 72, 255, 0) 69.12%
+  );
+}
+
+.header-card {
+  background: linear-gradient(
+    261deg,
+    #0133f799 19.67%,
+    rgba(1, 51, 247, 0) 57.09%
+  );
+}
+
+.crypto-card {
+  background: linear-gradient(70deg, #061935 3.56%, rgba(6, 25, 53, 0) 71.58%);
+}
+
+.fiat-card {
+  background: linear-gradient(70deg, #06352a 3.56%, rgba(6, 53, 42, 0) 71.58%);
+}
+.wealth-card {
+  background: linear-gradient(70deg, #230d04 3.56%, rgba(53, 20, 6, 0) 71.58%);
+}
+.nft-card {
+  background: linear-gradient(70deg, #260e59 3.56%, rgba(39, 5, 51, 0) 71.58%);
+}
+.ocean-card {
+  background: linear-gradient(
+      66deg,
+      #1a48ff -21.54%,
+      rgba(26, 72, 255, 0) 46.44%
+    ),
+    #061935;
+}
+
+.cards-side-card {
+  background: linear-gradient(65deg, #061035 30.04%, rgba(6, 25, 53, 0) 75.43%);
+}
+
+.dashboard-footer {
+  background: linear-gradient(
+    270deg,
+    rgba(231, 232, 236, 0.02) 0%,
+    rgba(231, 232, 236, 0.4) 50%
+  );
+}
+.chart-tab-content {
+  background-color: #f8f9f9;
+}
+
+.dark-loader {
+  @apply dark:bg-gradient-to-l dark:from-[#3232320d] dark:from-0% dark:to-[#323232] dark:to-50%;
+  /* background: linear-gradient(270deg, #3232320d 0%, #323232 50%); */
+}

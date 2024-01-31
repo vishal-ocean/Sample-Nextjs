@@ -1,0 +1,7 @@
+.tier-progress {
+  transition: all 1500ms ease-in-out !important;
+}
+
+.tier-ruler-progress {
+  transition: all 1500ms ease-in-out !important;
+}
